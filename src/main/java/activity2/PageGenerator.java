@@ -41,16 +41,16 @@ public class PageGenerator extends HttpServlet {
             out.println("</head>");
             out.println("<body style='text-align: center; width: 500px; margin-left: 400px'>");
             out.println("<h1>Page Generator</h1>");
-            out.println("<table style='margin-left: 200px'>");
-            for (int col = 0; col < 3; col++){
+            out.println("<table style='margin-left: 150px'>");
+            for (int col = 0; col < 4; col++){
                 out.println("<tr>");
                 for (int row = 0; row < 3; row++){
-                    out.println("<td style='border: 1px solid black; padding: 10px'>" + (row) + "</td>");
+                    out.println("<td style='border: 1px solid black; padding: 20px'>" + (row) + "</td>");
                 }
                 out.println("</tr>");
             }
             out.println("</table>");
-            out.println("<br><br><a href=\"index.html\">Home</a>");
+            out.println("<br><br><a href=\"index.html\"><img src=\"images/homeButton2.png\" title=\"home\" width=\"50\" height=\"50\" /></a>");
            out.println("</body>");
             out.println("</html>");
         }

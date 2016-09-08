@@ -28,7 +28,7 @@
             <br>
             <br>
             
-            <a href="index.html">Home</a>
+            <a href="index.html"><img src="images/homeButton2.png" title="home" width="50" height="50" /></a>
         </p>
     </body>
 </html>
