@@ -18,8 +18,8 @@
             <%
                 for (int column = 0; column < 3; column++){
                     out.println("<tr>");
-                    for (int row = 0; row < 4; row++){
-                        out.println("<td style='border: 1px solid black; padding: 20px'>" + (row+10) + "</td>");
+                    for (int row = 0; row < 3; row++){
+                        out.println("<td style='border: 1px solid black; padding: 20px'>N" + (row+10) + "</td>");
                     }
                     out.println("</tr>");
                 }
